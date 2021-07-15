@@ -39,4 +39,5 @@ def show():
                 with open('output.txt', 'a') as f:
                     f.write(output)
 
+#call shwo function
 show()
