@@ -11,6 +11,14 @@ def my_range(x):
 def square(n):
     return n ** 2
 
+### Here is a cube function which takes an arg, squares it and return its square.
+def cube(n):
+    return n ** 3
+
+### Here is a square root function which takes an arg, squares it and return its square.
+def squareRoot(n):
+    return n ** float(1/2)
+
 def show():
     error = False
     try:
